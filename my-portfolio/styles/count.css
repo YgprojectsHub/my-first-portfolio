@@ -1,0 +1,50 @@
+#visited-count{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 30px;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+#visited-count .count{
+    background: transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border: 2px solid #ccc;
+    color: #E74C3C;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+#visited-count .count h4{
+    padding: 5px;
+    position: absolute;
+    bottom: -4px;
+}
+
+#visited-count .desc{
+    text-align: center;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: rgb(39, 39, 39);
+}
+
+#count-desc{
+    margin-top: 5px;
+    opacity: 0;
+    transform: scale(0);
+    transition: .5s;
+}
+
+#visited-count:hover #count-desc{
+    opacity: 1;
+    transform: scale(1);
+}

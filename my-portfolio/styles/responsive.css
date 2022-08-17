@@ -1,0 +1,123 @@
+
+/* homepage responsive settings */
+
+@media (max-width: 1081px){ 
+
+    .main .content1{
+        display: none;
+    }
+    
+    .main .content2{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 10px;
+        text-align: center;
+        background: rgb(248, 248, 248);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .main .content2 .b-1{
+        margin-top: 80px;
+    }
+
+    .contactformedit h1{
+       font-size: 27px;
+       margin-top: 100px;
+    }
+
+}
+
+@media (max-width: 795px){
+
+    .container {
+        position: relative;
+        margin: 0 auto;
+        max-width: 50%;
+        height: 90vh;
+        overflow: hidden;
+    }
+    
+    .container .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .container .navbar .navigation{
+        padding: 10px 0px;
+    }
+
+    .footer{
+        background: #202020;
+        color: #fff;
+        padding: 25px;
+    }
+
+}
+
+@media (max-width: 670px){
+
+    .container{
+        min-width: 300px;
+    }
+
+    .footer .b-2{
+        margin-left: 0px;
+        font-size: 14px;
+    }    
+    .footer .b-4{
+        margin-right: 0px;
+    }
+
+    .footer .b-4 a{
+        color: #ccc;
+        padding: 10px 8px;
+        font-size: 15px;
+    }
+
+    .main .content2 h1{
+        font-size: 27px;
+    }
+
+    .container .a-1 h1{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .container .a-2 h4{
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+    }
+}
+
+/* Contact settings */
+
+.b-1 input{
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #202020;
+    padding: 5px 0px;
+}
+
+.b-1 input:focus{
+    border-bottom: 1px solid #E74C3C;
+}
+
+.b-1 textarea{
+    border: none;
+    border: 1px solid #202020;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.b-1 textarea:focus{
+    border: 1px solid #E74C3C;
+}

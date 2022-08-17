@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+    outline: none;
+    position: relative;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 60%;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#logo{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+}
+
+.container .navbar .navigation a{
+    color: #ccc;
+    font-weight: 500;
+    margin: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.container .navbar .navigation a:hover{
+    color: #3b3b3b;
+}
+
+#active{
+    color: #fff;
+    background: #E74C3C;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#active:hover{
+    transition: .5s;
+    color: #fff;
+    background: #202020;
+}
+
+.admin-edit{
+    padding: 30px 0px;
+    margin-top: 20px;
+    border: 1px dashed #202020;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-edit form h3{
+    display: inline;
+    margin-right: 10px;
+}
+
+.admin-edit button{
+    padding: 7px 10px;
+    cursor: pointer;
+    background: #202020;
+    border: 1px solid #202020;
+    color: white;
+    font-size: 17px;
+    transition: .5s;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.admin-edit button:hover{
+    background: #313131;
+}
+
+.admin-edit input{
+    padding: 6px 10px;
+}
+
+textarea{
+    padding: 5px;
+}
+
+.spcl-edit button{
+    padding: 7px 10px;
+    cursor: pointer;
+    background: #202020;
+    border: 1px solid #202020;
+    color: white;
+    font-size: 17px;
+    transition: .5s;
+    border-radius: 5px;
+}

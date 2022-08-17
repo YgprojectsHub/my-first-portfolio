@@ -1,0 +1,91 @@
+@media (max-width: 1100px){
+    .container {
+        position: relative;
+        margin: 0 auto;
+        max-width: 50%;
+        height: 90vh;
+        overflow: hidden;
+    }
+    
+    .container .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .container .navbar .navigation{
+        padding: 10px 0px;
+    }
+
+    .admin-edit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .admin-edit form h3{
+        font-size: 16px;
+    }
+
+    .admin-edit button{
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 5px;
+    }
+
+    .admin-edit{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 690px){
+    .admin-edit form h3{
+        display: block;
+    }
+
+    .admin-edit button{
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 5px;
+        padding: 7px 7px;
+    }
+
+    .admin-edit input{
+        padding: 3px 10px;
+    }
+
+    .admin-edit textarea{
+        transform: scale(0.9);
+    }
+
+    #count-desc{
+    font-size: 12px;
+    }  
+    
+    #logo{
+        font-size: 25px;
+    }
+
+    #editadminimg2{
+        margin-left: 13%;
+        transform: translateX(-40%);
+        transform: scale(0.9);
+    }
+
+    .admin-edit{
+        margin-top: 5px;
+    }
+
+    .container .navbar .navigation a{
+        font-size: 14px;
+    }
+    
+    .snav{
+        display: block;
+    }
+}
